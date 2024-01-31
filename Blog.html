@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Website.html"><img src="Images/SIG_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Website.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Courses.html">COURSES</a></li>
+                <li><a href="Blog.html">PLACEMENT</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Placements in SIG</h1>
+    </section>
+<!------------Placement------>
+<section class="placement_content">
+    <div class="row">
+        <div class="place-left">
+            <img src="Images/placement-840x450.png">
+            <h2>Placement in Symbiosis Institute of Geoinformatics</h2>
+            <p>Placements are one of the benchmarks that students look to when it comes to choosing institutions for their post graduate degree. Unlike other MSC colleges in Pune, SIG believes in supporting its students throughout including providing ample placement assistance as well. The faculties strengthen the academic knowledge about the geoinformatics domain and also provide required guidance to the students to prepare them for the placement season. Being a part of the esteemed Symbiosis group, SIG has established a firm reputation amongst the big names of the geoinformatics industry. A dedicated placement team works round the clock to bring forth the opportunities for students in the Geoinformatics domain</p>
+            <br>
+            <p>So far more than simply quantity, the quality of jobs garnered by SIG students is also worth a mention. What SIG puts into each student is reflected in the quality of students who leave its portals to enter the corporate world.</p>
+            <br>
+            <p>SIG offers placement support facility to those students who secure minimum acceptable grade ('C+' grade) in every subject of the first year, that is, first two module end examinations and two months project.</p>
+            <br>
+            <p>The institute provides guidance and assistance for selection of two months short duration summer project and for six months project-cum-placement to students, in terms of publication and distribution of placement brochure, promotional visits to potential employers, training for interviews and group discussions and facilities for campus interviews. Placement assistance, however, is a privilege and not a right.</p>
+                <div class="query-box">
+                <h3>Leave your Query</h3>
+                <form class="query-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Query">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST QUERY</button>
+                </form>
+            </div>
+        </div>
+        <div class="place-right">
+            <h3>Top Recruiters (2021-23)</h3>
+            <div>
+                <span>CyberTech Technologies</span>
+                <span>12%</span>
+            </div>
+            <div>
+                <span>ESRI India</span>
+                <span>12%</span>
+            </div>
+            <div>
+                <span>Reliance Jio Infocomm Ltd.</span>
+                <span>10%</span>
+            </div>
+            <div>
+                <span>Nascent Technologies</span>
+                <span>5%</span>
+            </div>
+            <div>
+                <span>Bandhan Bank</span>
+                <span>3%</span>
+            </div>
+            <div>
+                <span>Others</span>
+                <span>37%</span>
+            </div> 
+        </div>    
+    </div>
+
+</section>
+<!-----------Footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Symbiosis Institute of Geoinformatics, we are dedicated to fostering a transformative learning environment, driving cutting-edge research, and nurturing innovation in geospatial sciences,<br>empowering our students to be leaders in the dynamic realm of geoinfo rmatics for a sustainable and interconnected global future.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made with <i class="fa fa-heart-o"></i> by Soham Das(PRN:23070241059)</p>
+    </section>    
+<!-------JavaScript for Toggle Menu------->  
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";  
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";  
+    }
+</script>   
+</body>
+</html>

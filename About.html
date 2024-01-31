@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Website.html"><img src="Images/SIG_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Website.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Courses.html">COURSES</a></li>
+                <li><a href="Blog.html">PLACEMENT</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>About Us</h1>
+    </section>
+<!-----------About Us Content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Pioneering Excellence in Geospatial Education</h1>
+            <p>Symbiosis Institute of Geoinformatics (SIG) is a pioneering institution offering leading-edge programs in Spatial Science, Geo Intelligence, Data Science, and Analytics. Committed to providing top-tier education, SIG prepares students to meet the growing demands of Geospatial technology, Artificial Intelligence, Machine Learning, Data Mining, Navigation, and e-governance. With a remarkable 100% campus project cum placement record, SIG offers programs such as M.Sc. (Geoinformatics), M.Sc. (Data Science and Spatial Analytics), M.Tech (Geoinformatics and Surveying Technology), and certificate courses in Photogrammetry and Remote Sensing. Our curriculum is carefully crafted to cover both theoretical and practical aspects, ensuring graduates are well-equipped for success in the dynamic field of geospatial technologies.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/SIG.jpg">
+        </div>
+    </div>
+    </section>
+<!-----------Footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Symbiosis Institute of Geoinformatics, we are dedicated to fostering a transformative learning environment, driving cutting-edge research, and nurturing innovation in geospatial sciences,<br>empowering our students to be leaders in the dynamic realm of geoinfo rmatics for a sustainable and interconnected global future.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made with <i class="fa fa-heart-o"></i> by Soham Das(PRN:23070241059)</p>
+    </section>    
+<!-------JavaScript for Toggle Menu------->  
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";  
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";  
+    }
+</script>   
+</body>
+</html>

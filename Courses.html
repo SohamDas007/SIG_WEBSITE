@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Website.html"><img src="Images/SIG_LOGO_1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Website.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Courses.html">COURSES</a></li>
+                <li><a href="Blog.html">PLACEMENT</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Our Courses</h1>
+    </section>
+<!-----------Courses Content-------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>SIG Offers Courses Conferred Under the Symbiosis International University Spread Across Semesters</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>M.Sc. Geoinformatics</h3>
+            <p> M.Sc.(Geoinformatics) offered by Symbiosis Institute of Geoinformatics (SIG) comprises 80 credits, spread across 4 semesters. Comprising two projects as expected , the degree is conferred under the Symbiosis International University. Geoinformatics is a specialized field necessitating expert knowledge. SIG has emerged as one of the leading MSc geoinformatics colleges in India with their commitment, quality of education and legacy as a institute.</p>
+        </div>
+        <div class="course-col">
+            <h3>M.Sc. Data Science and Spatial Analytics</h3>
+            <p> SIG believes that the current trends of Artificial Intelligence techniques, including Machine learning and Deep learning aspects through MSc data science in India, are uniformly revamping a range of fields from finance and banking to healthcare and earth observations. So the institute provides some of the best data science and AI courses in India. SIG offers the one of the best M.Sc data science and AI course in India to students interested in the field. </p>
+        </div>
+        <div class="course-col">
+            <h3>M.Tech. Geoinformatics and ST</h3>
+            <p>Geoinformatics is a broad term used for collection of a number of different technologies, approaches, processes that deal with spatial information.  Our students are able to create original solutions to manage and process spatial information and proficiently interact with groups of experts in various fields. Students who have completed their MTech in Geoinformatics can be employed as GIS consultants, GIS managers, GIS Engineers, GIS analysts or GIS developers.</p>
+        </div>
+    </div>  
+</section>
+<!--------- facilities ---------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>SIG Aims to Provide the Best Facilities to its Students for Bringingn Out Their Best</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/LIB.png">
+            <h3>Fully Equipped Library</h3>
+            <p>In SIG's exceptional library, knowledge meets innovation! Its extensive collection boasts a diverse range of resources curated to fuel your intellectual curiosity. Whether one is a seasoned professional, a student, or an avid learner, SIG's library is a gateway to a world of information. Immerse in a wealth of meticulously organized content that spans various disciplines, ensuring there's something for everyone. SIG's commitment to quality ensures that students have access to the latest research, insightful publications, and cutting-edge literature. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/LAB.png">
+            <h3>Collaborative Laboratories</h3>
+            <p>SIG's cutting-edge lab facility is dedicated to advancing research and innovation in the fields of remote sensing and GIS, providing a dynamic space for exploration and learning. Equipped with the latest technology and software tools, the lab fosters a collaborative environment for students, researchers, and professionals to delve into the world of spatial analysis, mapping, and geospatial data processing. Whether one is a seasoned expert or a novice in the field, SIG's Remote Sensing and GIS lab is designed to support a diverse range of projects and inquiries. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/CLASS.png">
+            <h3>Large and Spacious Classrooms</h3>
+            <p>SIG classrooms are designed to foster an engaging and collaborative learning experience for students of all ages. Equipped with state-of-the-art technology and comfortable seating, SIG's learning spaces provide the perfect setting for academic excellence. Its commitment to quality education is reflected in the thoughtfully curated classrooms that inspire curiosity and promote active participation. SIG believes in creating an environment where every student can thrive, learn, and succeed. </p>
+        </div>
+    </div> 
+</section>
+<!-----------Footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Symbiosis Institute of Geoinformatics, we are dedicated to fostering a transformative learning environment, driving cutting-edge research, and nurturing innovation in geospatial sciences,<br>empowering our students to be leaders in the dynamic realm of geoinfo rmatics for a sustainable and interconnected global future.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made with <i class="fa fa-heart-o"></i> by Soham Das(PRN:23070241059)</p>
+    </section>      
+<!-------JavaScript for Toggle Menu------->  
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";  
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";  
+    }
+</script>   
+</body>
+</html>
